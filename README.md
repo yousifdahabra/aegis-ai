@@ -9,10 +9,32 @@
 >
 >  It simulates real-world cyber threats, analyzes responses, and identifies vulnerabilities, aiming to reduce risks and foster stronger cybersecurity practices in organizations.
 
-### User Stories
-- As a user, I want to take a simple quiz about online safety, so I can understand how to protect myself from cyber threats
-- As a user, I want to get helpful tips after the quiz, so I can learn better ways to stay safe when using the internet.
-- As a user, I want to answer questions about online risks, so I can practice handling dangerous situations like fake links, apps, or calls.
+## User Stories
+### User
+- **As a user, I want to take a simple quiz about online safety, so I can understand how to protect myself from cyber threats**
+- **As a user, I want to get helpful tips after the quiz, so I can learn better ways to stay safe when using the internet.**
+- **As a user, I want to answer questions about online risks, so I can practice handling dangerous situations like fake links, apps, or calls.**
+- **As a user, I want to request a custom test from an expert, so that it matches my specific needs and challenges.**
+
+### Expert
+- **As an expert, I want to manage all user requests and review their previous tests and results, so I can provide better insights and support.**
+
+- **As an expert, I want to view additional user request details, such as social links, to better understand their context and needs.**
+
+- **As an expert, I want to create custom test questions for each user based on their past test results and new information, so the tests are tailored to their improvement areas.**
+
+### Admin
+- **As an admin, I want to have the same capabilities as an expert, so I can manage user requests and tests effectively.**
+
+- **As an admin, I want to manage users, review their profiles, and delete their accounts if necessary, to maintain a secure and organized platform.**
+
+- **As an admin, I want to review user requests to become experts by checking their certifications or other required files, to ensure only qualified individuals are approved.**
+
+- **As an admin, I want to add new user types, so the platform can support a broader range of roles and functionality.**
+
+- **As an admin, I want to add new question types, so the tests can include diverse and engaging formats.**
+
+- **As an admin, I want to add new test states, so the platform can track the progress of tests accurately.**
 
 <br><br>
 <!-- Tech stack -->
