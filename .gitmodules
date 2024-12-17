@@ -1,0 +1,6 @@
+[submodule "ai-safety-server"]
+	path = ai-safety-server
+	url = https://github.com/yousifdahabra/ai-safety-server
+[submodule "ai-safety-app"]
+	path = ai-safety-app
+	url = https://github.com/yousifdahabra/ai-safety-app
