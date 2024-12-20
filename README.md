@@ -5,7 +5,7 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> AI Safety Awareness Trainer that uses social engineering to test and enhance employers' security awareness.
+> AegisAI that uses social engineering to test and enhance employers' security awareness.
 >
 >  It simulates real-world cyber threats, analyzes responses, and identifies vulnerabilities, aiming to reduce risks and foster stronger cybersecurity practices in organizations.
 
@@ -13,7 +13,6 @@
 ### User
 - **As a user, I want to take a simple quiz about online safety, so I can understand how to protect myself from cyber threats**
 - **As a user, I want to get helpful tips after the quiz, so I can learn better ways to stay safe when using the internet.**
-- **As a user, I want to answer questions about online risks, so I can practice handling dangerous situations like fake links, apps, or calls.**
 - **As a user, I want to request a custom test from an expert, so that it matches my specific needs and challenges.**
 
 ### Expert
@@ -30,17 +29,11 @@
 
 - **As an admin, I want to review user requests to become experts by checking their certifications or other required files, to ensure only qualified individuals are approved.**
 
-- **As an admin, I want to add new user types, so the platform can support a broader range of roles and functionality.**
-
-- **As an admin, I want to add new question types, so the tests can include diverse and engaging formats.**
-
-- **As an admin, I want to add new test states, so the platform can track the progress of tests accurately.**
-
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  AI Safety Awareness Trainer is built using the following technologies:
+###  AegisAI is built using the following technologies:
 
 ### Flutter
 The app is built with the [Flutter app development framework](https://flutter.dev/), enabling cross-platform development. This allows us to use a single codebase for mobile, desktop, and web applications.
@@ -60,7 +53,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <img src="./readme/title4.svg"/>
 
 
-> We designed AI Safety Awareness Trainer using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We designed AegisAI using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
 - Project Figma design [Figma](https://www.figma.com/design/OSIpVHQafWlkto6pnhEM7t/Final-Project?node-id=0-1&t=LCd9DlfpPxIjU8cO-1)
 
@@ -135,7 +128,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up AI Safety Awareness Trainer locally, follow these steps:
+> To set up AegisAI locally, follow these steps:
 
 ### Prerequisites
 
@@ -161,4 +154,4 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = 'ENTER YOUR API';
    ```
 
-Now, you should be able to run AI Safety Awareness Trainer locally and explore its features.
+Now, you should be able to run AegisAI locally and explore its features.
