@@ -53,7 +53,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <img src="./readme/title4.svg"/>
 
 
-> We designed AegisAI using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We began designing AegisAI by mapping the user flow, followed by creating wireframes and mockups. We iterated on the design until we achieved an ideal layout that ensures easy navigation and a seamless user experience.
 
 - Project Figma design [Figma](https://www.figma.com/design/OSIpVHQafWlkto6pnhEM7t/Final-Project?node-id=0-1&t=LCd9DlfpPxIjU8cO-1)
 
@@ -68,9 +68,10 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
-###  Architecting Data Excellence: Innovative Database Design Strategies:
-
-- Insert ER Diagram here
+###  Leveraging [MySQL Workbench](https://www.mysql.com/products/workbench/), I crafted and implemented a robust, expertly designed database architecture to power seamless functionality.
+| Database Diagram  | 
+| ---| 
+| ![Landing](./readme/database/AegisAI.png) | 
 
 
 <br><br>
