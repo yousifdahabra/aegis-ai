@@ -57,9 +57,9 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 
 ### Mockups
-| Start Test  | Result | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](readme/app/start_test.png) | ![fsdaf](readme/app/result.png) | ![fsdaf](readme/app/start_test.png) | ![fsdaf](readme/app/start_test.png) |
+| Start Test  | Listen Question | Answer Question | Result
+| ---| ---| ---| ---| 
+| ![Landing](readme/app/starttest.png)  | ![fsdaf](readme/app/speak.png) | ![fsdaf](readme/app/listen.png) | ![fsdaf](readme/app/result.png) |
 
 <br><br>
 
