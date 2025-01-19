@@ -5,9 +5,7 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> AegisAI that uses social engineering to test and enhance employers' security awareness.
->
->  It simulates real-world cyber threats, analyzes responses, and identifies vulnerabilities, aiming to reduce risks and foster stronger cybersecurity practices in organizations.
+>  Aegis AI empowers users to take control of their online safety with personalized, interactive tests that adapt to their responses. Featuring real-time voice interactions, it identifies vulnerabilities and teaches effective security practices, helping users protect themselves from cyber risks.
 
 ## User Stories
 ### User
@@ -69,9 +67,9 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <img src="./readme/title5.svg"/>
 
 ###  Leveraging [MySQL Workbench](https://www.mysql.com/products/workbench/), I crafted and implemented a robust, expertly designed database architecture to power seamless functionality.
-| Database Diagram  | 
-| ---| 
-| ![Landing](./readme/database/AegisAI.png) | 
+| Database Diagram |
+| --- |
+| <img src="./readme/database/AegisAI.png" alt="Database Diagram" width="600px"> |
 
 
 <br><br>
@@ -89,11 +87,18 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 | ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
 
 ### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+
+| User Requests | Application Overview | Test Details |
+| --- | --- | --- |
+| ![User Requests](./readme/admin/user_request.png) | ![Application](./readme/admin/application.png) | ![Test Details](./readme/admin/test_details.png) |
+
+| Test List | User List (Dark Mode) | User List |
+| --- | --- | --- |
+| ![Test List](./readme/admin/test_list.png) | ![User List Dark](./readme/admin/user_list_dark.png) | ![User List](./readme/admin/user_list.png) |
+
+| Add Test (GIF) |  |  |
+| --- | --- | --- |
+| <img src="./readme/admin/add_test.gif" alt="Database Diagram" width="755px"> |  |  |
 
 <br><br>
 
@@ -108,20 +113,20 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <br><br>
 
 <!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
+<!-- <img src="./readme/title8.svg"/>
 
 ###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
 - This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
 
-<br><br>
+<br><br> -->
 
 <!-- Unit Testing -->
 <img src="./readme/title9.svg"/>
 
-###  Precision in Development: Harnessing the Power of Unit Testing:
+###  Dynamic Security Design: Leveraging Prompt Engineering for Smarter Assessments:
 
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+- This project employs advanced prompt engineering to design a structured, dynamic system for cybersecurity assessments. By leveraging a JSON-based framework, it ensures seamless integration and adaptability, tailoring questions to user behaviors and responses. The design emphasizes diverse question formats, interactive voice features, and adaptive sequencing to maintain engagement and relevance. With a focus on simplicity and effectiveness, the project provides actionable insights and inspiration for addressing online safety challenges, fostering improved habits and understanding of cybersecurity risks.
 
 <br><br>
 
