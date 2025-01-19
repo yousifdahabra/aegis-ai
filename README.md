@@ -145,30 +145,154 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up AegisAI locally, follow these steps:
+# AegisAI Installation Guide
 
-### Prerequisites
+> Follow these steps to set up **AegisAI** locally, from prerequisites to configuration and running the project.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+---
 
-### Installation
+## Prerequisites
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Ensure the following are installed on your system before proceeding:
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. **Node.js** (for Vue.js frontend)
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   npm install npm@latest -g
    ```
 
-Now, you should be able to run AegisAI locally and explore its features.
+2. **Flutter SDK** (for the mobile application)
+   - [Installation Guide](https://flutter.dev/docs/get-started/install)
+
+3. **Laravel Framework** (for the backend)
+   - [Installation Guide](https://laravel.com/docs/10.x/installation)
+
+4. **Composer** (for PHP dependencies)
+   - [Installation Guide](https://getcomposer.org/download/)
+
+5. **Database** (e.g., MySQL)
+   - Install MySQL or ensure it’s running locally.
+
+---
+
+## Installation
+
+### 1. Clone the Repository
+Clone the entire project, which includes the backend, frontend, and mobile app.
+- frontend folder
+   ```sh
+   git clone https://github.com/yousifdahabra/ai-safety-web.git
+   ```
+- backend folder
+   ```sh
+   git clone https://github.com/yousifdahabra/ai-safety-server.git
+   ```
+- mobile folder
+   ```sh
+   git clone https://github.com/yousifdahabra/ai-safety-app.git
+   ```
+
+---
+
+### 2. Backend Setup (Laravel)
+Navigate to the `backend` folder:
+```sh
+cd backend
+```
+
+#### Install Dependencies
+```sh
+composer install
+```
+
+#### Environment Configuration
+1. Copy the `.env.example` file to `.env`:
+   ```sh
+   cp .env.example .env
+   ```
+2. Update the `.env` file with your database credentials:
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=aegisai
+   DB_USERNAME=root
+   DB_PASSWORD=your_password
+   ```
+
+#### Generate Keys and Migrate Database
+```sh
+php artisan key:generate
+php artisan migrate --seed
+```
+
+#### Run the Server
+Start the Laravel backend:
+```sh
+php artisan serve
+```
+The backend API will be available at `http://127.0.0.1:8000`.
+
+Repository: [Laravel Backend](https://github.com/yousifdahabra/ai-safety-server)
+
+---
+
+### 3. Frontend Setup (Vue.js)
+Navigate to the `frontend` folder:
+```sh
+cd frontend
+```
+
+#### Install Dependencies
+```sh
+npm install
+```
+
+#### Environment Configuration
+1. Create a `.env` file in the `frontend` folder:
+   ```sh
+   touch .env
+   ```
+2. Add the backend API URL to the `.env`:
+   ```env
+   VUE_APP_API_URL=http://127.0.0.1:8000/api
+   ```
+
+#### Run the Frontend
+Start the Vue.js development server:
+```sh
+npm run serve
+```
+The frontend will be available at `http://localhost:8080`.
+
+Repository: [Vue.js Frontend](https://github.com/yousifdahabra/ai-safety-web)
+
+---
+
+### 4. Mobile App Setup (Flutter)
+Navigate to the `mobile` folder:
+```sh
+cd mobile
+```
+
+#### Install Dependencies
+```sh
+flutter pub get
+```
+
+#### Environment Configuration
+1. Update the API base URL in the `lib/utils/config.dart` file:
+   ```dart
+   const String API_BASE_URL = 'http://127.0.0.1:8000/api';
+   ```
+
+#### Run the App
+Start the Flutter development environment:
+```sh
+flutter run
+```
+
+Repository: [Flutter Mobile App](https://github.com/yousifdahabra/ai-safety-app)
+
+---
+Now you’re all set to explore **AegisAI** locally! 🚀 Let me know if you face any issues during setup.
+
