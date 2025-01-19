@@ -98,7 +98,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 | Add Test (GIF) |  |  |
 | --- | --- | --- |
-| <img src="./readme/admin/add_test.gif" alt="Database Diagram" width="755px"> |  |  |
+| <img src="https://yousif.website/git/add_test.gif" alt="Database Diagram" width="755px"> |  |  |
 
 <br><br>
 
