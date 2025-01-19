@@ -57,9 +57,9 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 
 ### Mockups
-| Home screen  | Menu Screen | Order Screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Start Test  | Result | Landing screen | Loading screen |
+| ---| ---| ---| ---|
+| ![Landing](readme/app/start_test.png) | ![fsdaf](readme/app/result.png) | ![fsdaf](readme/app/start_test.png) | ![fsdaf](readme/app/start_test.png) |
 
 <br><br>
 
@@ -122,13 +122,13 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <br><br> -->
 
 <!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
+<!-- <img src="./readme/title9.svg"/>
 
 ###  Dynamic Security Design: Leveraging Prompt Engineering for Smarter Assessments:
 
 - This project employs advanced prompt engineering to design a structured, dynamic system for cybersecurity assessments. By leveraging a JSON-based framework, it ensures seamless integration and adaptability, tailoring questions to user behaviors and responses. The design emphasizes diverse question formats, interactive voice features, and adaptive sequencing to maintain engagement and relevance. With a focus on simplicity and effectiveness, the project provides actionable insights and inspiration for addressing online safety challenges, fostering improved habits and understanding of cybersecurity risks.
 
-<br><br>
+<br><br> -->
 
 
 <!-- How to run -->
