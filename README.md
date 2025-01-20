@@ -83,19 +83,19 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 | Intro Screen (GIF) | Start Test (GIF) | Expert Requests |
 | --- | --- | --- |
-| <img src="./readme/implementation/intro_screen.gif" alt="Intro Screen" width="300px" height="600px"> | <img src="./readme/implementation/start_test.gif" alt="Start Test" width="300px" height="600px"> | <img src="./readme/implementation/expert_request.jpg" alt="Expert Requests" width="300px" height="600px"> |
+| ![Intro Screen](./readme/implementation/intro_screen.gif) | ![Start Test](./readme/implementation/start_test.gif) | ![Expert Requests](./readme/implementation/expert_request.jpg) |
 
 | Test List | Expert Test List | Login Screen |
 | --- | --- | --- |
-| <img src="./readme/implementation/test_list.jpg" alt="Test List" width="300px" height="600px"> | <img src="./readme/implementation/expert_test_list.jpg" alt="Expert Test List" width="300px" height="600px"> | <img src="./readme/implementation/login.jpg" alt="Login Screen" width="300px" height="600px"> |
+| ![Test List](./readme/implementation/test_list.jpg) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/login.jpg) |
 
 | Input Question | Interactive Question | Multiple Select Question |
 | --- | --- | --- |
-| <img src="./readme/implementation/input_question.jpg" alt="Input Question" width="300px" height="600px"> | <img src="./readme/implementation/intractive_question.jpg" alt="Interactive Question" width="300px" height="600px"> | <img src="./readme/implementation/multible_select_question.jpg" alt="Multiple Select Question" width="300px" height="600px"> |
+| ![Input Question](./readme/implementation/input_question.jpg) | ![Interactive Question](./readme/implementation/intractive_question.jpg) | ![Multiple Select Question](./readme/implementation/multible_select_question.jpg) |
 
 | Single Select Question |  |  |
 | --- | --- | --- |
-| <img src="./readme/implementation/single_select_question.jpg" alt="Single Select Question" width="300px" height="600px"> |  |  |
+| ![Single Select Question](./readme/implementation/single_select_question.jpg) |  |  |
 
 ### Admin Screens (Web)
 
