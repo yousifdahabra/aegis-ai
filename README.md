@@ -95,7 +95,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 | Single Select Question |  |  |
 | --- | --- | --- |
-| ![Single Select Question](./readme/implementation/single_select_question.jpg) |  |  |
+|    <img src="./readme/implementation/single_select_question.jpg" alt="Database Diagram" width="370px">|  |  |
 
 ### Admin Screens (Web)
 
@@ -107,9 +107,9 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 | --- | --- | --- |
 | ![Test List](./readme/admin/test_list.png) | ![User List Dark](./readme/admin/user_list_dark.png) | ![User List](./readme/admin/user_list.png) |
 
-| Add Test (GIF) |  |  |
-| --- | --- | --- |
-| <img src="./readme/admin/add_test.gif" alt="Database Diagram" width="755px"> |  |  |
+| Add Test (GIF) |  
+| --- | 
+| <img src="./readme/admin/add_test.gif" alt="Database Diagram" width="755px"> | 
 
 <br><br>
 
