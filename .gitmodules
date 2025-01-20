@@ -5,5 +5,5 @@
 	path = ai-safety-app
 	url = https://github.com/yousifdahabra/ai-safety-app
 [submodule "aegis-ai-web"]
-    path = aegis-ai-web
-    url = https://github.com/yousifdahabra/aegis-ai-web.git
+	path = aegis-ai-web
+	url = https://github.com/yousifdahabra/aegis-ai-web.git
