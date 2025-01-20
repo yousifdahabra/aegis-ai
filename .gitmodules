@@ -7,3 +7,6 @@
 [submodule "aegis-ai-app"]
 	path = aegis-ai-app
 	url = https://github.com/yousifdahabra/aegis-ai-app.git
+[submodule "aegis-ai-server"]
+	path = aegis-ai-server
+	url = https://github.com/yousifdahabra/aegis-ai-server.git
