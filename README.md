@@ -81,13 +81,13 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 ### User Screens (Mobile)
 
-| Intro Screen (GIF) | Start Test (GIF) | Expert Requests |
+| Dynamic Test (GIF) | Voice Interaction (GIF) | AI Result (GIF) |
 | --- | --- | --- |
-| ![Intro Screen](./readme/implementation/intro_screen.gif) | ![Start Test](./readme/implementation/start_test.gif) | ![Expert Requests](./readme/implementation/expert_request.jpg) |
+| ![Dynamic Test](./readme/implementation/dynamic_test.gif) | ![Start Test](./readme/implementation/voice_interaction.gif) | ![AI Result](./readme/implementation/ai_result.gif)  |
 
-| Test List | Expert Test List | Single Select Question |
+| Test List  | Expert Test List | Intro Screen (GIF) |
 | --- | --- | --- |
-| ![Test List](./readme/implementation/test_list.jpg) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/single_select_question.jpg) |
+| ![Test List](./readme/implementation/test_list.jpg) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/intro_screen.gif) |
 
 | Input Question | Interactive Question | Multiple Select Question |
 | --- | --- | --- |
