@@ -85,17 +85,14 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 | --- | --- | --- |
 | ![Intro Screen](./readme/implementation/intro_screen.gif) | ![Start Test](./readme/implementation/start_test.gif) | ![Expert Requests](./readme/implementation/expert_request.jpg) |
 
-| Test List | Expert Test List | Login Screen |
+| Test List | Expert Test List | Single Select Question |
 | --- | --- | --- |
-| ![Test List](./readme/implementation/test_list.jpg) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/login.jpg) |
+| ![Test List](./readme/implementation/test_list.jpg) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/single_select_question.jpg) |
 
 | Input Question | Interactive Question | Multiple Select Question |
 | --- | --- | --- |
 | ![Input Question](./readme/implementation/input_question.jpg) | ![Interactive Question](./readme/implementation/intractive_question.jpg) | ![Multiple Select Question](./readme/implementation/multible_select_question.jpg) |
 
-| Single Select Question |  |  |
-| --- | --- | --- |
-|    <img src="./readme/implementation/single_select_question.jpg" alt="Database Diagram" width="370px">|  |  |
 
 ### Admin Screens (Web)
 
