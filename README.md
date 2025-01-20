@@ -180,15 +180,15 @@ Ensure the following are installed on your system before proceeding:
 Clone the entire project, which includes the backend, frontend, and mobile app.
 - frontend folder
    ```sh
-   git clone https://github.com/yousifdahabra/ai-safety-web.git
+   git clone https://github.com/yousifdahabra/aegis-ai-web.git
    ```
 - backend folder
    ```sh
-   git clone https://github.com/yousifdahabra/ai-safety-server.git
+   git clone https://github.com/yousifdahabra/aegis-ai-server.git
    ```
 - mobile folder
    ```sh
-   git clone https://github.com/yousifdahabra/ai-safety-app.git
+   git clone https://github.com/yousifdahabra/aegis-ai-app.git
    ```
 
 ---
@@ -232,7 +232,7 @@ php artisan serve
 ```
 The backend API will be available at `http://127.0.0.1:8000`.
 
-Repository: [Laravel Backend](https://github.com/yousifdahabra/ai-safety-server)
+Repository: [Laravel Backend](https://github.com/yousifdahabra/aegis-ai-server)
 
 ---
 
@@ -264,7 +264,7 @@ npm run serve
 ```
 The frontend will be available at `http://localhost:8080`.
 
-Repository: [Vue.js Frontend](https://github.com/yousifdahabra/ai-safety-web)
+Repository: [Vue.js Frontend](https://github.com/yousifdahabra/aegis-ai-web)
 
 ---
 
@@ -291,7 +291,7 @@ Start the Flutter development environment:
 flutter run
 ```
 
-Repository: [Flutter Mobile App](https://github.com/yousifdahabra/ai-safety-app)
+Repository: [Flutter Mobile App](https://github.com/yousifdahabra/aegis-ai-app)
 
 ---
 Now you’re all set to explore **AegisAI** locally! 🚀 Let me know if you face any issues during setup.

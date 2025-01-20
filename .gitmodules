@@ -1,6 +1,3 @@
-[submodule "ai-safety-server"]
-	path = ai-safety-server
-	url = https://github.com/yousifdahabra/ai-safety-server
 [submodule "aegis-ai-web"]
 	path = aegis-ai-web
 	url = https://github.com/yousifdahabra/aegis-ai-web.git
