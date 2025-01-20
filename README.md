@@ -5,7 +5,7 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
->  Aegis AI empowers users to take control of their online safety with personalized, interactive tests that adapt to their responses. Featuring real-time voice interactions, it identifies vulnerabilities and teaches effective security practices, helping users protect themselves from cyber risks.
+>  Aegis AI empowers users to take control of their online safety with personalized, interactive tests that adapt to their responses. Featuring voice interactions, it identifies vulnerabilities and teaches effective security practices, helping users protect themselves from cyber risks.
 
 ## User Stories
 ### User
@@ -57,9 +57,9 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 
 ### Mockups
-| Start Test  | Listen Question | Answer Question | Result
-| ---| ---| ---| ---| 
-| ![Landing](readme/app/starttest.png)  | ![fsdaf](readme/app/speak.png) | ![fsdaf](readme/app/listen.png) | ![fsdaf](readme/app/result.png) |
+  | Listen Question | Answer Question | Result
+| ---| ---| ---| 
+ | ![fsdaf](readme/app/speak.png) | ![fsdaf](readme/app/listen.png) | ![fsdaf](readme/app/result.png) |
 
 <br><br>
 
