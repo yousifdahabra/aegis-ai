@@ -99,7 +99,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 | Test List  | Expert Test List | Intro Screen (GIF) |
 | --- | --- | --- |
-| ![Test List](./readme/implementation/test_list.jpg) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/intro_screen.gif) |
+| ![Test List](./readme/implementation/test_details.gif) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/intro_screen.gif) |
 
 
 ### Admin Screens (Web)
