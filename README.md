@@ -60,6 +60,18 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
   | Listen Question | Answer Question | Result
 | ---| ---| ---| 
  | ![fsdaf](readme/app/speak.png) | ![fsdaf](readme/app/listen.png) | ![fsdaf](readme/app/result.png) |
+### User Flow
+   | Admin | 
+   | ---| 
+   | ![fsdaf](readme/user_flow/admin.png) | 
+
+   | Expert | 
+   | ---| 
+   | ![fsdaf](readme/user_flow/securityexpert.png) | 
+
+   | User | 
+   | ---| 
+   | ![fsdaf](readme/user_flow/user.png) | 
 
 <br><br>
 
@@ -92,17 +104,14 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 ### Admin Screens (Web)
 
-| User Requests | Application Overview |
-| --- | --- |
-| ![User Requests](./readme/admin/user_request.png) | ![Application](./readme/admin/application.png) |
-
-| Test Details | Test List |
-| --- | --- |
-| ![Test Details](./readme/admin/test_details.png) | ![Test List](./readme/admin/test_list.png) |
-
 | User List (Dark Mode) | User List |
 | --- | --- |
 | ![User List Dark](./readme/admin/user_list_dark.png) | ![User List](./readme/admin/user_list.png) |
+
+| Test Details | Application Overview |
+| --- | --- |
+| ![Test Details](./readme/admin/test_details.png) | ![Application](./readme/admin/application.png) |
+
 
 | Add Test (GIF) |  
 | --- | 
@@ -114,9 +123,60 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+###  AI-Driven Prompt Engineering for Dynamic Cybersecurity Assessments:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- This project uses AI-based prompt engineering to create dynamic and adaptive cybersecurity assessments. By designing questions based on user responses, it provides interactive and personalized feedback to help users improve their online safety and adopt better security practices.
+
+#### 1. Role Definition
+- AI acts as a **cybersecurity expert and educator** to assess user habits.
+
+#### 2. Question Generation
+- Dynamically generated questions based on **user responses**.
+- Question types include:
+  - **Input (open-ended)**.
+  - **Multiple choice**.
+  - **Checkbox**.
+  - **Voice interaction** using **Speech-to-Text (STT)**.
+
+#### 3. Target Audience and Goal
+- Designed for **everyday users** with minimal technical knowledge.
+- Goal: Improve **online safety practices** and mitigate risks.
+
+#### 4. Question Sequencing
+- Engages users by varying question types.
+- Avoids repetition for a smoother experience.
+
+#### 5. JSON Response Format
+- Standardized responses for questions and feedback.
+- Example question JSON:
+  ```json
+  {
+      "type_question": <question_type_id>,
+      "gpt_question_id": <question_id>,
+      "question": "<question_title>",
+      "options": [<option_1>, <option_2>, ...] (if applicable),
+      "user_answer": [<selected_option_1>, <selected_option_2>, ...] (if applicable)
+   }
+#### 6. Feedback and Analysis
+- Provides actionable insights and a score summary in JSON.
+- Example question JSON:
+  ```json
+   {
+      "result": {
+      "analysis": "<feedback_summary>",
+      "score": "<user_score>%"
+      }
+   }
+#### 7. Previous Questions
+- Provides actionable insights and a score summary in JSON.
+- Example input for previous questions JSON:
+  ```json
+   {
+      {"id": <question_id>, "type_question": <question_type_id>, "user_answer": ["<option_1>, <option_2>"]}
+   }
+| Prompts |  
+| --- |  
+| ![GPT](./readme/gpt/gpt.png) |  
 
 
 <br><br>
@@ -189,18 +249,10 @@ Ensure the following are installed on your system before proceeding:
 ## Installation
 
 ### 1. Clone the Repository
-Clone the entire project, which includes the backend, frontend, and mobile app.
-- frontend folder
+Clone the entire project, which includes the aegis-ai-web Front-end, aegis-ai-server Back-end, and aegis-ai-app Mobile app.
+- Main Repo
    ```sh
-   git clone https://github.com/yousifdahabra/aegis-ai-web.git
-   ```
-- backend folder
-   ```sh
-   git clone https://github.com/yousifdahabra/aegis-ai-server.git
-   ```
-- mobile folder
-   ```sh
-   git clone https://github.com/yousifdahabra/aegis-ai-app.git
+   git clone https://github.com/yousifdahabra/aegis-ai.git
    ```
 
 ---
