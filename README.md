@@ -89,20 +89,20 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 | --- | --- | --- |
 | ![Test List](./readme/implementation/test_list.jpg) | ![Expert Test List](./readme/implementation/expert_test_list.jpg) | ![Login Screen](./readme/implementation/intro_screen.gif) |
 
-| Input Question | Interactive Question | Multiple Select Question |
-| --- | --- | --- |
-| ![Input Question](./readme/implementation/input_question.jpg) | ![Interactive Question](./readme/implementation/intractive_question.jpg) | ![Multiple Select Question](./readme/implementation/multible_select_question.jpg) |
-
 
 ### Admin Screens (Web)
 
-| User Requests | Application Overview | Test Details |
-| --- | --- | --- |
-| ![User Requests](./readme/admin/user_request.png) | ![Application](./readme/admin/application.png) | ![Test Details](./readme/admin/test_details.png) |
+| User Requests | Application Overview |
+| --- | --- |
+| ![User Requests](./readme/admin/user_request.png) | ![Application](./readme/admin/application.png) |
 
-| Test List | User List (Dark Mode) | User List |
-| --- | --- | --- |
-| ![Test List](./readme/admin/test_list.png) | ![User List Dark](./readme/admin/user_list_dark.png) | ![User List](./readme/admin/user_list.png) |
+| Test Details | Test List |
+| --- | --- |
+| ![Test Details](./readme/admin/test_details.png) | ![Test List](./readme/admin/test_list.png) |
+
+| User List (Dark Mode) | User List |
+| --- | --- |
+| ![User List Dark](./readme/admin/user_list_dark.png) | ![User List](./readme/admin/user_list.png) |
 
 | Add Test (GIF) |  
 | --- | 
@@ -118,16 +118,31 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 - This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
 
+
 <br><br>
 
 <!-- AWS Deployment -->
-<!-- <img src="./readme/title8.svg"/>
+<img src="./readme/title8.svg"/>
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+###  AI Safety Solutions: Making Online Security Better with Scalable Deployment:
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project uses AWS to deploy the AI-powered backend, providing scalability, reliability, and strong performance. It runs on an EC2 instance, and Amazon S3 is used for secure and efficient storage of uploaded images and AI models used in the application.
+- API Documentation: You can access detailed API documentation for this project through the following link [Postman](https://documenter.getpostman.com/view/15123466/2sAYQcFW1X)
 
-<br><br> -->
+
+
+### Admin Screens (Web)
+
+| Login | Start Test (AI) |
+| --- | --- |
+| ![User Requests](./readme/postman/login.png) | ![Application](./readme/postman/start_test.png) |
+
+| Answer Question (AI) | Result (AI)|
+| --- | --- |
+| ![Test Details](./readme/postman/answer.png) | ![Test List](./readme/postman/finish.png) |
+
+
+<br><br>
 
 <!-- Unit Testing -->
 <!-- <img src="./readme/title9.svg"/>
