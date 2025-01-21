@@ -151,11 +151,11 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 - Example question JSON:
   ```json
   {
-      "type_question": <question_type_id>,
-      "gpt_question_id": <question_id>,
+      "type_question": "<question_type_id>",
+      "gpt_question_id": "<question_id>",
       "question": "<question_title>",
-      "options": [<option_1>, <option_2>, ...] (if applicable),
-      "user_answer": [<selected_option_1>, <selected_option_2>, ...] (if applicable)
+      "options": ["<option_1>", "<option_2>", "..."] "(if applicable)",
+      "user_answer": ["<selected_option_1>", "<selected_option_2>", "..."] "(if applicable)"
    }
 #### 6. Feedback and Analysis
 - Provides actionable insights and a score summary in JSON.
@@ -172,7 +172,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 - Example input for previous questions JSON:
   ```json
    {
-      {"id": <question_id>, "type_question": <question_type_id>, "user_answer": ["<option_1>, <option_2>"]}
+      {"id": "<question_id>", "type_question": "<question_type_id>", "user_answer": ["<option_1>, <option_2>"]}
    }
 | Prompts |  
 | --- |  
