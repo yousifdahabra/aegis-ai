@@ -131,7 +131,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 
 
-### Admin Screens (Web)
+### Postman Screens
 
 | Login | Start Test (AI) |
 | --- | --- |
