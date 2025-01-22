@@ -241,7 +241,7 @@ Ensure the following are installed on your system before proceeding:
 4. **Composer** (for PHP dependencies)
    - [Installation Guide](https://getcomposer.org/download/)
 
-5. **Database** (e.g., MySQL)
+5. **Database** (MySQL)
    - Install MySQL or ensure it’s running locally.
 
 ---
@@ -281,6 +281,7 @@ composer install
    DB_DATABASE=aegisai
    DB_USERNAME=root
    DB_PASSWORD=your_password
+   OPENAI_API_KEY
    ```
 
 #### Generate Keys and Migrate Database
