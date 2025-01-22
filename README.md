@@ -345,7 +345,7 @@ flutter pub get
 ```
 
 #### Environment Configuration
-1. Update the API base URL in the `lib/utils/config.dart` file:
+1. Update the API base URL in the `lib\data\api\dio_config.dart` file:
    ```dart
    const String API_BASE_URL = 'http://127.0.0.1:8000/api';
    ```
