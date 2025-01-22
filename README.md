@@ -186,7 +186,7 @@ The project uses [MySQL](https://www.mysql.com/) as the relational database mana
 
 ###  AI Safety Solutions: Making Online Security Better with Scalable Deployment:
 
-- This project uses AWS to deploy the AI-powered backend, providing scalability, reliability, and strong performance. It runs on an EC2 instance, and Amazon S3 is used for secure and efficient storage of uploaded images and AI models used in the application.
+- This project uses AWS providing scalability, reliability, and strong performance. It runs on an EC2 instance.
 - API Documentation: You can access detailed API documentation for this project through the following link [Postman](https://documenter.getpostman.com/view/15123466/2sAYQcFW1X)
 
 
